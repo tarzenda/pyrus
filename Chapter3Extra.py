@@ -22,7 +22,7 @@ def bar():
 def baz():
     print("entering baz()")
     print(x)
-    raise Exception("Houston, we have a problem.")
+    1/0   # cause a failure to see the traceback
     print("exiting baz()")
 
 foo()

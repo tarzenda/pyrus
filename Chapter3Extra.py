@@ -22,6 +22,7 @@ def bar():
 def baz():
     print("entering baz()")
     print(x)
+    raise Exception("Houston, we have a problem.")
     print("exiting baz()")
 
 foo()

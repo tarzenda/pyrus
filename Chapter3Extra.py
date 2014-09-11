@@ -9,19 +9,19 @@ def foo():
     x=10
     y=20
     bar()
-    # print(x)
+    print(x)
     print("exiting foo()")
 
 def bar():
     print("entering bar()")
     x = 30
-    # print(x)
+    print(x)
     baz()
     print("exiting bar()")
 
 def baz():
     print("entering baz()")
-    # print(x)
+    print(x)
     print("exiting baz()")
 
 foo()

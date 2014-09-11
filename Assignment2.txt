@@ -1,0 +1,33 @@
+Exercise 1
+
+I committed the script to Git, so it should be there.
+
+Exercise 2
+
+When I call the function clear_screen() before its definition, I get a traceback error. The reason this happens
+is because a function cannot be called before it is defined, otherwise, the computer does not know what that
+function is supposed to do.
+
+Exercise 3
+
+When I place the definition of new_line() after it is called upon in other definition statements, it still runs
+the program correctly. This is because the function call for clear_screen() which utilizes the new_line()
+definition is still placed after the new_line() function is definied. If I were to place the new_line() definition
+after the clear_screen() call, then a traceback error would occur.
+
+Exercise 4
+
+I finally got this one working, found out the problem was at first I hadn't definied the
+cat_n_times() statement correctly, then I wasn't importing correctly because I was typing
+in "import import_test" instead of "from import_test import * ". So, after correcting
+everything, this is what I got:
+
+>>> from import_test import *
+>>> cat_n_times('spam', 7)
+spamspamspamspamspamspamspam
+>>> 
+
+The import_test.py script I will commit to Git.
+
+As for the Chapter3Extra.py script, I don't know where that is. Is that supposed to be
+in Git or something? I couldn't find it.

@@ -54,4 +54,7 @@ docs/_build/
 
 # Emacs
 *~
+
+# PyCharm-specific
 .idea/workspace.xml
+.idea/inspectionProfiles

@@ -7,12 +7,7 @@ def intro():
 def compare(x,y):
     if x<y:
         print (x, "is less than", y)
-        intro()
     elif x>y:
         print (x, "is greater than", y)
-        intro()
     else:
         print (x, "and", y, "are equal")
-        intro()
-
-intro()
